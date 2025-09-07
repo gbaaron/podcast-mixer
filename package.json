@@ -7,7 +7,7 @@
     "ffmpeg-static": "^5.2.0"
   }
 }
-// POST /concat : upload clip0, clip1, ... clipN  -> returns one MP3 with all in order
+
 import os from "node:os";
 import path from "node:path";
 
