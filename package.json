@@ -1,5 +1,9 @@
 {
   "type": "module",
+  "engines": { "node": ">=18 <=22" },
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
     "express": "^4.19.2",
     "multer": "^1.4.5-lts.1",
